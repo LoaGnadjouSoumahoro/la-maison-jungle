@@ -1,7 +1,7 @@
 # PlantShop
 
 PlantShop est un site de vente de plantes en ligne construit avec React.
-![Capture d'écran 1](src/images/image-site.png)
+![Capture d'écran 1](src/assets/image-site.png)
 
 ## Technologies Utilisées
 

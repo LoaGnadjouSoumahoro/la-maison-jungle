@@ -1,10 +1,12 @@
+import "../styles/Cart.css";
+
 function Cart() {
   const monstera_price = 8;
   const lierre_price = 10;
   const bouquetFleurs_price = 15;
 
   return (
-    <div>
+    <div className="lmj-cart">
       <ul>
         <li>Monstera: {monstera_price} €</li>
         <li>Lierre: {lierre_price} €</li>
