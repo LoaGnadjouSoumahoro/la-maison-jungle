@@ -16,7 +16,19 @@ function ShoppingList() {
       </ul>
       <ul>
         {plantList.map((plant) => (
-          <li key={plant.id}>{plant.name}</li>
+          <li key={plant.id}>
+            {plant.name}
+            {/*  Afficahge de emoji pour indiquer les meilleurs ventes */}
+            {/* {plant.isBestSale ? <span>🔥</span> : null} */}
+
+            {/* function ternaire avec &&: affiche unique le span si la condition est verifirer */}
+            {/* {plant.isBestSale && <span>🔥</span>} */}
+
+            {/* afficher le 🔥 pour les plantes qui sont des  isBestSale   ET dans la category classique */}
+            {plant.isBestSale && plant.category === "classique" && (
+              <span>🔥</span>
+            )}
+          </li>
         ))}
       </ul>
     </div>
