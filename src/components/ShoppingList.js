@@ -22,7 +22,7 @@ function ShoppingList() {
             {/* {plant.isBestSale ? <span>🔥</span> : null} */}
 
             {/* function ternaire avec &&: affiche unique le span si la condition est verifirer */}
-            {/* {plant.isBestSale && <span>🔥</span>} */}
+            {plant.isBestSale && <span>🔥</span>}
 
             {/* afficher le 🔥 pour les plantes qui sont des  isBestSale   ET dans la category classique */}
             {plant.isBestSale && plant.category === "classique" && (
